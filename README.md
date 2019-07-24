@@ -16,6 +16,7 @@ Extract urls to follow from href attribute of ```<a>``` tags
 - Python3 - Most code written in python
 - Html - To understand how to parse html
 - Http - To understand how to communicate with wikipedia to get html file
+- GIT - To use github and make pull requests
 
 ## Libraries used
 
@@ -26,7 +27,7 @@ Extract urls to follow from href attribute of ```<a>``` tags
 ## How to configure
 
 - Clone this repository
-    - ```git clone <github repo url>```
+    - ```git clone https://github.com/tinkerhub-org/webcrawler-beginner```
 - install dependencies
     - ```pip3 install -r requirements.txt```
 
