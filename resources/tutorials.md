@@ -102,3 +102,8 @@ The relevance of a url is based on
 - If the url contains fragments, it maybe ignored since its a url to self
 
 - If the url doesnt have same domain as wikipedia, it wont have the information(related titles of articles) we seek.
+
+## Advanced Improvements (Not to be done here)
+- You can attempt to convert the crawler into a multithreaded application to increase the speed
+
+- [Use scrapy framework](https://scrapy.org/) 

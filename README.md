@@ -11,7 +11,7 @@ Then process the html file using BeautifulSoup, to extract the required title an
 
 Extract urls to follow from href attribute of ```<a>``` tags
 
-Detailed in resources/tutorials.md (Read before starting)
+Detailed in ```resources/tutorials.md``` (Read before starting)
 
 ## Prerequisites
 
