@@ -1,19 +1,18 @@
-from bs4 import BeautifulSoup
-import requests
-from urllib.parse import urljoin,urlparse
-#assign domain name of input url here
-domain=""
 #A Simple Crawler to extract the titles of 
 # first n pages (if n==-1, all pages) 
 # starting from a given wiki page in wikipedia
+# DONOT CHANGE FUNCTION NAME AND PARAMETERS
+from bs4 import BeautifulSoup
+import requests
+from urllib.parse import urljoin,urlparse
 
+
+#assign domain name of input url here
+domain=""
 def main(url,n=-1):
     global domain
-    #set start url
-    #avoid revisiting
-    #set title list
-    #only extract links in a tags inside main content
-    #exclude the navigation links
+    #traversal algorithm in here
+    # should return list of titles
     pass
 
 #check if the link provided is an html file or not
@@ -25,8 +24,8 @@ def checkmedia(url):
 def get_all_links(soup,i):
     #find all <a> tag
 	#extract list of links
-	#filter based on domain
-	#avoid fragments
+	#filter based on domain, using filter()
+	#avoid fragments, using filter()
     pass
 
 #get title of page
@@ -41,6 +40,6 @@ def checkdomain(link):
 def checkfragment(link):
 	pass
 
-#run the main function if executed as main than module
+#run the main function if executed as main
 if __name__=="__main__":
 	print("\n".join(main(input().strip(),10)))

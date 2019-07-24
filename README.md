@@ -5,11 +5,13 @@ A basic web crawler to go through wikipedia and extract titles of related pages 
 This is just a practice sample to get started with crawlers.
 ## How it Works ?
 
-It uses requests to check if the given starting link is html file or not
+It uses requests to check if the given link is html file or not
 
 Then process the html file using BeautifulSoup, to extract the required title and
 
 Extract urls to follow from href attribute of ```<a>``` tags
+
+Detailed in resources/tutorials.md (Read before starting)
 
 ## Prerequisites
 
