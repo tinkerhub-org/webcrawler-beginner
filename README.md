@@ -25,9 +25,10 @@ Extract urls to follow from href attribute of ```<a>``` tags
 - pytest - For testing
 
 ## How to configure
+- Fork this repository to your account
 
-- Clone this repository
-    - ```git clone https://github.com/tinkerhub-org/webcrawler-beginner```
+- Clone the forked repository
+    - ```git clone <forked github repo url>```
 - install dependencies
     - ```pip3 install -r requirements.txt```
 
@@ -40,6 +41,11 @@ Extract urls to follow from href attribute of ```<a>``` tags
 
 - Run pytest
     - ```pytest```
+
+## How to Submit
+
+- Make a pull request
+
 ## Contributors list
 
 1. John Abraham - dravog7
