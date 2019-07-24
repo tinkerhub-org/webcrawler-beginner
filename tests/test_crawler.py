@@ -1,4 +1,4 @@
-import crawler
+from .. import crawler
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin,urlparse
 class Test_check_media(object):
